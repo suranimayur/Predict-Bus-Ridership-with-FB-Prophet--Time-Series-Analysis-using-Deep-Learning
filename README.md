@@ -13,3 +13,14 @@ import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 from fbprophet.plot import plot_cross_validation_metric
 from fbprophet.diagnostics import cross_validation, performance_metrics
+
+Step 02 Set parameters for current display
+
+plt.rcParams['figure.figsize']=(10,7.5)
+
+Step 03 Read source file in python IDE. You can use jyputer notebook , google colab or visual code studio for projects( As these three are most userfriendly IDEs for python)
+
+df= pd.read_csv("/content/portland-oregon-average-monthly-.csv")
+df.head()
+
+
